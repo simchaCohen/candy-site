@@ -1,0 +1,30 @@
+ul.raute {
+    width: 100%;
+    position: absolute;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #fe7f8d;
+    top: 0;
+   padding-left: 20vw;
+  }
+  
+  ul.raute li {
+    float: left;
+
+  }
+  
+  ul.raute li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  ul.raute li a:hover {
+    background-color: #ec4f59;
+    color: white;
+  }
+  

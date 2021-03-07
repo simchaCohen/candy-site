@@ -1,0 +1,10 @@
+
+.margin{
+    margin-bottom: 2em;
+    text-align: start;
+}
+#upload-photo {
+    opacity: 0;
+    position: absolute;
+    z-index: -1;
+}
