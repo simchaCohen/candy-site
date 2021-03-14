@@ -35,9 +35,7 @@ function App() {
               <Route path="/client">
                <ClientRoute></ClientRoute>
               </Route>
-              {/* <Route path="/show-candy">
-               <ShowCandy></ShowCandy>
-              </Route> */}
+             
               <Route path="/">
                 <Home srcImg={src}></Home>
               </Route>

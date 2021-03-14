@@ -45,9 +45,9 @@ export default withRouter(connect(mapStateToProps, mapDispatchToProps)(function 
                             })}
                             onSubmit={(values, { setSubmitting }) => {
                                 values.picture = picture;
+                                values._id=candy[index]._id;
                                 setCandy(index,values);
                                 setSubmitting(false);
-                                history.push('/manager/candy');
                             }}  >
 
                             <Form>

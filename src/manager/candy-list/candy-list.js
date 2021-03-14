@@ -48,7 +48,7 @@ export default withRouter(
                 <tbody>
                     {candy.map((item,index) => {
                         return (
-                            <tr key={item.candyId}>
+                            <tr key={item._id}>
                                 <td>{item.candyName}</td>
                                 <td>{item.quantity}</td>
                                 <td>{item.weight}</td>
